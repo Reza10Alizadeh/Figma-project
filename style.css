@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.navbar {
+  margin: 1.3rem 15px;
+}
+.navbar-brand img {
+  max-height: 40px;
+  vertical-align: middle;
+}
+.navbar-nav .nav-item {
+  padding: 0 10px;
+}
+.navbar-nav .nav-link {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+  color: #71a894;
+}
+.navbar-nav .nav-link.nav-End {
+  color: #71a894;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+@font-face {
+  font-family:"Bely Display W00 Regular";
+  src: url(font/Bely\ Display\ W00\ Regular.woff2);
+}
+.header h1,.header span{
+font-family:Bely Display W00 Regular;
+font-size: 50px;
+}
+.header h1 span{
+  color: #71a894;
+  border-bottom: 5px solid ;
+}
+.item-left {
+  width: 608px;
+  height: 248px;
+  margin-top: 150px;
+  margin-left: 20vh;
+}
+.item-left p {
+  padding-top: 10px;
+  color: #66645e;
+  font-size: 24px;
+}
+.item-left button {
+  color: #fff;
+  margin-top: 30px;
+  background-color: #71a894;
+  border: 0;
+  border-radius: 8px;
+  padding: 24px 20px;
+}
+.item-right {
+  background: #f3f0ea;
+  border-radius: 53% 47% 70% 30% / 26% 19% 81% 74%;
+}
+@media screen and (max-width: 990px) {
+  .navbar {
+    text-align: center;
+  }
+  .header {
+    margin-top: -20vh;
+    flex-direction: column;
+  }
+  .item-left {
+    text-align: center;
+  }
+  .item-left button {
+    margin-top: -2px;
+  }
+  .item-right {
+    margin-top: 20vw;
+  }
+}
+@media screen and (max-width: 768px){
+  .header h1,.header span{
+    font-size: 35px;
+  }
+  .item-left{
+    padding-right: 20vw;
+    padding-top: 2vw;
+  }
+  .item-right img{
+    width: 768px;
+  }
+}
