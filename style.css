@@ -96,3 +96,68 @@ font-size: 50px;
     width: 768px;
   }
 }
+.title{
+  margin-top: 20vh;
+  text-align: center;
+}
+.title h1 {
+  font-size: 50px;
+  font-family: 'Bely Display W00 Regular', sans-serif;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  margin: 0 auto;
+  animation: typing 3s steps(40, end) 1s forwards, cursor 0.5s step-end infinite alternate;
+  line-height: 1.4;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 58%; }
+}
+
+@keyframes cursor {
+  50% { border-color: transparent; }
+}
+.title p {
+  font-size: 16px; 
+  margin: 10px auto 0;
+  display: block;
+  font-weight: 600;
+  max-width: 865px;
+  text-align: left;
+}
+.cards{
+  max-width: 1328px;
+  width: auto;
+  margin: 12vh auto 0 ;
+cursor: pointer;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 10px;
+}
+.icons h3{
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.icons p{
+  font-size:13px;
+  max-width: 500px;
+}
+.icons img{
+  background-color:#F3F0EA;
+  border-radius: 50%;
+  max-width: 88px;
+}
+.icon1,.icon2,.icon3{
+  padding: 70px 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow:5px 5px 10px #cccccc,
+  -5px -5px 10px #f4f4f4;
+}
