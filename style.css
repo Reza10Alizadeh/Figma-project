@@ -27,6 +27,10 @@
 .navbar-nav .nav-link.nav-End {
   color: #71a894;
 }
+.d-none {
+  font-size: 32px;
+  font-weight: 700;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -457,7 +461,7 @@
   border-radius: 14px;
   padding: 25px 40px 20px 24px;
 }
-.card-right img{
+.card-right img {
   padding-bottom: 10px;
   margin-top: 10px;
 }
@@ -492,63 +496,83 @@
   border-radius: 20px;
   font-size: 16px;
 }
-.Enterprice h1{
+.Enterprice h1 {
   font-size: 48px;
   font-family: Bely Display W00 Regular;
   text-align: center;
   margin-top: 5rem;
 }
-.Enterprice-tasks{
+.Enterprice-tasks {
   margin-top: 7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 70px 0;
 }
-.task1,.task2,.task3{
+.task1,
+.task2,
+.task3 {
   border: 1px solid #fff;
   box-shadow: 5px 5px 10px #cccccc, -5px -5px 10px #f4f4f4;
   border-radius: 20px;
 }
-.task1-title,.task2-title,.task3-title{
- padding: 30px 20px 0;
+.task1-title,
+.task2-title,
+.task3-title {
+  padding: 30px 20px 0;
 }
-.task1{
+.task1 {
   margin-top: 1rem;
   width: 427px;
   height: 276px;
 }
-.task2,.task3{
+.task2,
+.task3 {
   width: 427px;
   height: 246px;
 }
-.task1 p,.task2 p,.task3 p{
+.task1 p,
+.task2 p,
+.task3 p {
   font-size: 16px;
   max-width: 379px;
   font-weight: 400;
   padding-top: 15px;
 }
-.task1 h2,.task2 h2,.task3 h2{
+.task1 h2,
+.task2 h2,
+.task3 h2 {
   font-size: 18px;
   font-weight: 700;
 }
-.task1 h2,.task1 p,.task2 h2,.task2 p,.task3 h2,.task3 p{
+.task1 h2,
+.task1 p,
+.task2 h2,
+.task2 p,
+.task3 h2,
+.task3 p {
   font-family: Cousine-Regular;
 }
-.task1-discription,.task2-discription,.task3-discription{
+.task1-discription,
+.task2-discription,
+.task3-discription {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 20px 0;
 }
-.task1-discription{
-  margin:24px 20px 0 ;
+.task1-discription {
+  margin: 24px 20px 0;
 }
-.task1-discription p,.task2-discription p,.task3-discription p{
+.task1-discription p,
+.task2-discription p,
+.task3-discription p {
   font-size: 16px;
   font-weight: 700;
 }
-.task1-discription button,.task2-discription button,.task3-discription button{
+.task1-discription button,
+.task2-discription button,
+.task3-discription button {
   border: 0;
   outline: 0;
   color: #fff;
@@ -558,7 +582,7 @@
   padding: 4px 10px;
   font-weight: 800;
 }
-.Enterprice .view-button{
+.Enterprice .view-button {
   margin-top: 4rem;
   margin-left: 45%;
   border: 0;
@@ -568,4 +592,67 @@
   font-weight: 700;
   border-radius: 15px;
   padding: 24px 20px;
+}
+.footer {
+  margin-top: 13rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-title{
+  margin-bottom: 5rem;
+}
+.footer-title h1,
+.footer-title h1 span {
+  font-family: Bely Display W00 Regular;
+  font-size: 48px;
+}
+.footer-title h1 span {
+  color: #71a894;
+  border-bottom: 5px solid;
+  margin-left: 10px;
+}
+.footer-title {
+  width: 608px;
+  height: 248px;
+  margin-top: 150px;
+  margin-left: 20vh;
+}
+.footer-title p {
+  padding-top: 20px;
+  color: #66645e;
+  font-size: 18px;
+}
+.footer-title button {
+  color: #fff;
+  margin-top: 30px;
+  background-color: #71a894;
+  border: 0;
+  border-radius: 8px;
+  padding: 24px 20px;
+}
+.footer-nav ul{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  list-style: none;
+  padding: 0 30px 10px;
+}
+.footer-nav li{
+ padding-left: 40px;
+}
+.footer-nav ul a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.footer-nav .footer-left{
+  position: absolute;
+  left: 3%;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer-nav .footer-right a{
+  color: #71a894;
 }
