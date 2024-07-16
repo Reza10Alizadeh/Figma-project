@@ -492,3 +492,80 @@
   border-radius: 20px;
   font-size: 16px;
 }
+.Enterprice h1{
+  font-size: 48px;
+  font-family: Bely Display W00 Regular;
+  text-align: center;
+  margin-top: 5rem;
+}
+.Enterprice-tasks{
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 70px 0;
+}
+.task1,.task2,.task3{
+  border: 1px solid #fff;
+  box-shadow: 5px 5px 10px #cccccc, -5px -5px 10px #f4f4f4;
+  border-radius: 20px;
+}
+.task1-title,.task2-title,.task3-title{
+ padding: 30px 20px 0;
+}
+.task1{
+  margin-top: 1rem;
+  width: 427px;
+  height: 276px;
+}
+.task2,.task3{
+  width: 427px;
+  height: 246px;
+}
+.task1 p,.task2 p,.task3 p{
+  font-size: 16px;
+  max-width: 379px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+.task1 h2,.task2 h2,.task3 h2{
+  font-size: 18px;
+  font-weight: 700;
+}
+.task1 h2,.task1 p,.task2 h2,.task2 p,.task3 h2,.task3 p{
+  font-family: Cousine-Regular;
+}
+.task1-discription,.task2-discription,.task3-discription{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 0;
+}
+.task1-discription{
+  margin:24px 20px 0 ;
+}
+.task1-discription p,.task2-discription p,.task3-discription p{
+  font-size: 16px;
+  font-weight: 700;
+}
+.task1-discription button,.task2-discription button,.task3-discription button{
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 16px;
+  background-color: #71a894;
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-weight: 800;
+}
+.Enterprice .view-button{
+  margin-top: 4rem;
+  margin-left: 45%;
+  border: 0;
+  color: #fff;
+  background-color: #303031;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 15px;
+  padding: 24px 20px;
+}
