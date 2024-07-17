@@ -849,9 +849,81 @@ body{
     text-align: center;
     margin-left: 7rem;
   }
+  .footer-nav li a{
+    font-size: 16px;
+  }
+  .footer-nav{
+    padding-bottom: 1rem;
+  }
   .footer-nav .footer-left{
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 576px) {
+  .item-left{
+    position: relative;
+    right: 21%;
+  }
+  .item-right{
+    position: relative;
+    right: 3%;
+  }
+  .item-right img{
+    margin-left: -4rem;
+  }
+  .title h1{
+    font-size: 18px;
+  }
+  .title p{
+    font-size: 13px;
+  }
+  .Member-box{
+    margin-left: -3rem;
+    padding: 30px 400px 20px 20px;
+  }
+  .proposal-widget{
+    margin-left: 20px;
+  }
+  .card2-info{
+   margin-left: 2rem;
+  }
+  .card3-info{
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+  }
+  .card3-info p{
+  font-size: 20px;
+    margin-right: 2rem;
+  }
+  .top-card{
+    margin-left: 5rem;
+  }
+  .bot-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .bot-cards .card-left{
+    width: 70%;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+  }
+  .footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-nav .footer-left {
+    position: static;
+    font-size: 16px;
+  }
+.Enterprice .view-button{
+  position: relative;
+  right: 8%;
+}
+.footer-title p {
+  position: relative;
+  left: 7%;
+  max-width: 500px;
+  font-size: 15px;
+}
 }
