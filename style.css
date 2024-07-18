@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
-body{
+body {
   overflow-x: hidden;
 }
 /* navbar */
@@ -55,13 +55,17 @@ body{
 }
 .item-left {
   margin: 20px 0;
-  
 }
 .item-left p {
   padding-top: 10px;
   color: #66645e;
   font-size: 24px;
   max-width: 608px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: center;
 }
 .item-left button {
   color: #fff;
@@ -78,7 +82,7 @@ body{
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 /*header */
@@ -196,7 +200,7 @@ body{
 }
 
 .Member-widget h2 {
-  font-family: 'Cousine-Regular', sans-serif;
+  font-family: "Cousine-Regular", sans-serif;
   font-size: 32px;
   font-weight: 600;
   position: relative;
@@ -220,7 +224,7 @@ body{
 }
 
 .member-title h4 {
-  font-family: 'Cousine-Regular', sans-serif;
+  font-family: "Cousine-Regular", sans-serif;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 0px;
@@ -267,7 +271,7 @@ body{
 }
 
 .card2-info h1 {
-  font-family: 'Bely Display W00 Regular', sans-serif;
+  font-family: "Bely Display W00 Regular", sans-serif;
   font-size: 36px;
 }
 
@@ -513,10 +517,10 @@ body{
 /* responsive */
 
 @media screen and (max-width: 768px) {
-    .my-custom-gy-3 {
-      margin-top: 1rem; /* فاصله بالایی */
-      margin-bottom: 1.5rem; /* فاصله پایینی */
-    }
+  .my-custom-gy-3 {
+    margin-top: 1rem; /* فاصله بالایی */
+    margin-bottom: 1.5rem; /* فاصله پایینی */
+  }
   .header h1,
   .header span {
     font-size: 35px;
@@ -574,30 +578,31 @@ body{
     margin-top: -5rem;
     text-align: center;
   }
-  .card3-info p{
+  .card3-info p {
     margin-left: 5rem;
   }
-  .card3-cards{
+  .card3-cards {
     margin-left: 3rem;
   }
-  .Enterprice h1{
+  .Enterprice h1 {
     font-size: 37px;
   }
-  .Enterprice-tasks,.footer{
+  .Enterprice-tasks,
+  .footer {
     display: flex;
     flex-direction: column;
   }
-  .footer-title{
+  .footer-title {
     text-align: center;
     margin-left: 7rem;
   }
-  .footer-nav li a{
+  .footer-nav li a {
     font-size: 16px;
   }
-  .footer-nav{
+  .footer-nav {
     padding-bottom: 1rem;
   }
-  .footer-nav .footer-left{
+  .footer-nav .footer-left {
     font-size: 16px;
   }
 }
@@ -617,11 +622,15 @@ body{
   .header span {
     font-size: 40px;
   }
-  .item-left{
+  .item-left {
     text-align: center;
   }
-  .item-left p{
+  .item-left p {
+    text-align: center;
     margin: auto;
+  }
+  .item-left button {
+    margin-left: 1rem;
   }
   .title h1 {
     font-size: 40px;
@@ -633,8 +642,10 @@ body{
   .header span {
     font-size: 35px;
   }
-  .img-fluid{
-    margin-left: 7rem;
+  .item-right img{
+    width: 100%;
+    padding: 0;
+    align-items: center;
   }
   .title h1 {
     font-size: 35px;
@@ -649,6 +660,7 @@ body{
     margin-left: 0;
     margin-right: 0;
   }
+
   .card2-member {
     flex-direction: column;
     align-items: center;
@@ -661,18 +673,22 @@ body{
   .Member-box {
     padding: 15px;
   }
-  .icon1, .icon2, .icon3 {
+  .icon1,
+  .icon2,
+  .icon3 {
     padding: 50px 0;
   }
 }
 /* 576px */
 @media (max-width: 576px) {
-  .img-fluid {
-    width: 100%;
-  }
   .header h1,
   .header span {
     font-size: 30px;
+  }
+  .item-right img{
+    align-items: center;
+    margin: auto;
+    padding: 0;
   }
   .title h1 {
     font-size: 30px;
